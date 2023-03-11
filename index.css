@@ -1,0 +1,99 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body{
+    margin: 1em;
+    background-color: #ffffff;
+}
+
+.Wrapper{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+form{
+    max-width: 500px;
+    width: 70%;
+
+}
+
+fieldset{
+    display: flex;
+    flex-direction: column;
+    background-color: #fff;
+    border: .08em solid #0e7ee7;
+    border-radius: .2em;
+    padding: .5em  .3em;
+}
+
+legend{
+    font-size: 1.5rem;
+    font-weight: 900;
+    font-family: monospace;
+    text-transform: uppercase;
+    color:#0e7ee7 ;
+}
+
+input{
+    font-size: .8rem;
+    margin: .5em 1em;
+    padding: 1.3em 1em;
+    border:  .01em solid #0e7ee7f3;
+    border-radius: .2em;
+    color: #0e7ee7;
+}
+
+::placeholder{
+    font-size: .9rem;
+    font-family: monospace;
+    font-weight: 900;
+    text-transform: uppercase;
+    color:#0e7ee7f6;
+}
+
+input:focus{
+ outline: .2em solid #0e7ee7;
+}
+
+input[type="radio"]{
+    outline: none;
+}
+
+.Gender{
+ display: flex;
+ justify-content: center;
+}
+
+label{
+    display: flex;
+    flex-direction: row;
+    width: 15%;
+    border: .04em solid #0e7ee7;
+    border-radius: .2em;
+    padding: .2em .5em;
+    font-size: 1rem;
+    font-weight: 900;
+    font-family: monospace;
+    color: #fff;
+    background-color: #0e7ee7;
+}
+
+.btn{
+    font-size: 1rem;
+    font-family: monospace;
+    font-weight: 900;
+    text-transform: uppercase;
+    color: #fff;
+    width: 95%;
+    padding: 1em .7em;
+    margin: 0 auto;
+    border: .04em solid #0e7ee7;
+    border-radius: .2em;
+    background-color: #0e7ee7;
+}
+

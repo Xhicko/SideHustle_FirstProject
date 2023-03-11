@@ -9,7 +9,42 @@
 </head>
 <body>
     <div class="Wrapper">
-        <h1> Simple Form </h1>
+        <form id="form" action="#">
+            <fieldset>
+
+                <legend>Simple Form</legend>
+
+                <input type="text" name="firstname" id="firstname" placeholder="Enter Your First Name" required>
+
+                <input type="text" name="middlename" id="middlename" placeholder=" Enter Your Middle Name" required>
+
+                <input type="text" name="lastname" id="lastname"  placeholder="Enter Your Last Name" required>
+
+                <input type="email" name="email" id="email" placeholder="Enter Your E-Mail" required>
+
+                <input type="number" name="pnumber" id="pnumber" placeholder="Enter Your Phone Number" required>
+
+                 <div class="Gender">
+
+                    <input type="radio" name="male" id="male" value="male" >
+                    <label for="male">Male</label>
+
+                    <input type="radio" name="female" id="female" value="female">
+                    <label for="male">Female</label>
+
+                 </div>
+
+                 <input type="password" name="password" id="password" placeholder="Enter Your Password" required>
+
+                 <input type="password" name="password" id="cpassword" placeholder="Confirm Your Password" required>
+
+                <!-- <input class="btn" type="submit" value="Submit Form" onended="alert('Form Submitted successfully')""> -->
+                <button  class="btn" type="submit" onclick="alert('Form Submitted Successfully')">Submit Form</button>
+
+              </fieldset>
+        </form>
     </div>
+
+    <script src="index.js"></script>
 </body>
 </html>
